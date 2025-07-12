@@ -29,7 +29,7 @@
         /* Header - Logo animé simple */
         .header {
             text-align: center;
-            padding: 60px 0 40px 0;
+            padding: 20px 0; /* Reduced padding */
             background: white;
         }
 
@@ -37,8 +37,7 @@
             /* Le conteneur du logo est centré par son parent .header */
             line-height: 0; /* Empêche les espaces verticaux inattendus */
         }
-
-        .logo video {
+.logo img {  /* Changed to img tag */
             width: 150px; /* On contrôle la taille de la vidéo ici */
             height: auto; /* Garde les bonnes proportions */
         }
